@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="CloseMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="OpenMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- '---- - About US - -----' -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-column">
+            <h1>We are the Largest University </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ut dolor, unde quisquam in ea neque dignissimos! Qui eveniet aspernatur sint, fugit consectetur praesentium. Rem atque eaque repellendus qui sit, placeat molestias incidunt ullam sed provident quas impedit iste blanditiis architecto amet ab enim accusantium consequatur officiis eos id iure.</p>
+            <a href="" class="btn-1 red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-column">
+            <img src="img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium. Veritatis ad inventore maiores
+            molestias <br> ratione doloribus in amet quo. Placeat ad officia fuga architecto.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made By <i class="far fa-heart"></i> Kaif Shaikh &copy;</p>
+    </footer>
+</body>
+<script>
+    // Java Script for Toddle Menu
+    var navlinks = document.getElementById("navlinks");
+
+    function OpenMenu() {
+        // navlinks.style.display = "block";
+        navlinks.style.right = "0";
+    }
+    function CloseMenu() {
+        // navlinks.style.display = "none";
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</html>

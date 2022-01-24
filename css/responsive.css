@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+  .text-box p {
+    font-size: 13px;
+    width: 80%;
+    text-align: center;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background: var(--main-orange-colour);
+    height: 100vh;
+    width: 200px;
+    text-align: left;
+    z-index: 2;
+    top: 0;
+    right: -200px;
+    /* display: none; */
+    transition: 1s;
+  }
+  nav .fas {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 30px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .testimonal-columns img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+   h1 {
+    font-size: 25px;
+  }
+  .cta h1{
+    font-size: 24px;
+  }
+}

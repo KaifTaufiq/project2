@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="CloseMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="OpenMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+    <!-- Blog page Content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et esse nihil, molestiae perspiciatis
+                    odit, sint facere at id culpa similique nesciunt vero ipsum mollitia. Quas harum voluptatem,
+                    aspernatur fugiat ut voluptates adipisci quod voluptatibus animi. Autem eius nostrum omnis minus! Ut
+                    dignissimos pariatur eos quaerat, voluptatum aut autem aperiam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et esse nihil, molestiae perspiciatis
+                    odit, sint facere at id culpa similique nesciunt vero ipsum mollitia. Quas harum voluptatem,
+                    aspernatur fugiat ut voluptates adipisci quod voluptatibus animi. Autem eius nostrum omnis minus! Ut
+                    dignissimos pariatur eos quaerat, voluptatum aut autem aperiam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et esse nihil, molestiae perspiciatis
+                    odit, sint facere at id culpa similique nesciunt vero ipsum mollitia. Quas harum voluptatem,
+                    aspernatur fugiat ut voluptates adipisci quod voluptatibus animi. Autem eius nostrum omnis minus! Ut
+                    dignissimos pariatur eos quaerat, voluptatum aut autem aperiam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et esse nihil, molestiae perspiciatis
+                    odit, sint facere at id culpa similique nesciunt vero ipsum mollitia. Quas harum voluptatem,
+                    aspernatur fugiat ut voluptates adipisci quod voluptatibus animi. Autem eius nostrum omnis minus! Ut
+                    dignissimos pariatur eos quaerat, voluptatum aut autem aperiam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et esse nihil, molestiae perspiciatis
+                    odit, sint facere at id culpa similique nesciunt vero ipsum mollitia. Quas harum voluptatem,
+                    aspernatur fugiat ut voluptates adipisci quod voluptatibus animi. Autem eius nostrum omnis minus! Ut
+                    dignissimos pariatur eos quaerat, voluptatum aut autem aperiam?</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="message" rows="5" placeholder="Your Comnent"></textarea>
+                        <button class="btn-1 red-btn" type="submit">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Data Entry</span>
+                    <span>30</span>
+                </div>
+                <div>
+                    <span>Project Management</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Full Stack Development</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium. Veritatis ad inventore maiores
+            molestias <br> ratione doloribus in amet quo. Placeat ad officia fuga architecto.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made By <i class="far fa-heart"></i> Kaif Shaikh &copy;</p>
+    </footer>
+</body>
+<script>
+    // Java Script for Toddle Menu
+    var navlinks = document.getElementById("navlinks");
+    function OpenMenu() {
+        // navlinks.style.display = "block";
+        navlinks.style.right = "0";
+    }
+    function CloseMenu() {
+        // navlinks.style.display = "none";
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</html>

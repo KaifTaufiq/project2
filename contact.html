@@ -21,7 +21,7 @@
                 <i class="fas fa-times" onclick="CloseMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="course.html">COURSES</a></li>
                     <li><a href="blog.html">BLOG</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
@@ -29,22 +29,59 @@
             </div>
             <i class="fas fa-bars" onclick="OpenMenu()"></i>
         </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
     </section>
 
-    <!-- '---- - About US - -----' -->
-<section class="about-us">
-    <div class="row">
-        <div class="about-column">
-            <h1>We are the Largest University </h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ut dolor, unde quisquam in ea neque dignissimos! Qui eveniet aspernatur sint, fugit consectetur praesentium. Rem atque eaque repellendus qui sit, placeat molestias incidunt ullam sed provident quas impedit iste blanditiis architecto amet ab enim accusantium consequatur officiis eos id iure.</p>
-            <a href="" class="btn-1 red-btn">EXPLORE NOW</a>
+    <!-- '---- -Cotnact US - -----' -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.5326096920708!2d72.84471728404655!3d19.07257754301224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9bf8f4b1d0f%3A0x8317073134398f64!2sBarkati%20Manzil%206A!5e0!3m2!1sen!2sin!4v1643087927086!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-column">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Room No. 602, Barkati Manzil 6A</h5>
+                        <p>Golibar Santacruz (E)</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+91 9280544567</h5>
+                        <p>Call For Support</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>kaifshaikh@gmail.com</h5>
+                        <p>Email Us Your Enqiury</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-column" >
+                <h3>Leave a Comment</h3>
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email"name="email" placeholder="Enter Email" required>
+                    <input type="text"name="subject" placeholder="Enter Subject" required>
+                    <textarea name="message"name="message" rows="8" type="text" placeholder="Your Comnent" required></textarea>
+                    <button class="btn-1 red-btn"name="name" type="submit">POST COMMENT</button>
+                </form>
+            </div>
         </div>
-        <div class="about-column">
-            <img src="img/about.jpg" alt="">
-        </div>
-    </div>
-</section>
+
+
+
+    </section>
+
+
+
 
     <!-- Footer -->
     <footer>

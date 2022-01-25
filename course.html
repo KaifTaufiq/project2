@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="CloseMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="OpenMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="course-colums">
+                <h3>Junior College</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    eligendi aperiam officia quibusdam officiis, expedita maxime cum id.
+                    Architecto, deserunt.
+                </p>
+            </div>
+            <div class="course-colums">
+                <h3>Under Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    eligendi aperiam officia quibusdam officiis, expedita maxime cum id.
+                    Architecto, deserunt.
+                </p>
+            </div>
+            <div class="course-colums">
+                <h3>Post Graduation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    eligendi aperiam officia quibusdam officiis, expedita maxime cum id.
+                    Architecto, deserunt.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus?</p>
+        <div class="row">
+            <div class="facility-columns">
+                <img src="img/library.png" alt="">
+                <h3>Work Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id necessitatibus quidem magnam
+                    qui.</p>
+            </div>
+            <div class="facility-columns">
+                <img src="img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id necessitatibus quidem magnam
+                    qui.</p>
+            </div>
+            <div class="facility-columns">
+                <img src="img/cafeteria.png" alt="">
+                <h3>Taste and Great Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium id necessitatibus quidem magnam
+                    qui.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, laudantium. Veritatis ad inventore maiores
+            molestias <br> ratione doloribus in amet quo. Placeat ad officia fuga architecto.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made By <i class="far fa-heart"></i> Kaif Shaikh &copy;</p>
+    </footer>
+</body>
+<script>
+    // Java Script for Toddle Menu
+    var navlinks = document.getElementById("navlinks");
+
+    function OpenMenu() {
+        // navlinks.style.display = "block";
+        navlinks.style.right = "0";
+    }
+    function CloseMenu() {
+        // navlinks.style.display = "none";
+        navlinks.style.right = "-200px";
+    }
+</script>
+
+</html>
